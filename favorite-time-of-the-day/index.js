@@ -16,13 +16,11 @@ const port = process.env.PORT
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
-
-
 app.use(express.static('public/assets'))
 
 app.set('views', path.join(__dirname, 'public/pages'))
 
-app.set('view engine', 'ejs')
+app.set('view engine', 'pug')
 
 webRouter(app)
 

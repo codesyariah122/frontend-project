@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250px" viewBox="0 0 113.39 99.21">
+	<linearGradient id="sky_sunset" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(-25)">
+		<stop offset="0%" stop-color="#f7ffa9" stop-opacity="1"></stop>
+		<stop offset="40%" stop-color="#ffcc33" stop-opacity="1"></stop>
+		<stop offset="100%" stop-color="#ffbe1d" stop-opacity="1"></stop>
+	</linearGradient>
+	<linearGradient id="sky_dusk" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(45)">
+		<stop offset="0%" stop-color="#ffd4fe" stop-opacity="1"></stop>
+		<stop offset="30%" stop-color="#ffd4fe" stop-opacity="1"></stop>
+		<stop offset="100%" stop-color="#ffd26a" stop-opacity="1"></stop>
+	</linearGradient>
+	<polygon fill="#B3EFFF" id="sky" points="111.971,97.368 111.971,1.842 1.419,1.842 1.419,9.042 1.419,97.368"></polygon>
+</svg>
