@@ -1,8 +1,3 @@
-// const express = require('express')
-
-// const path = require('path')
-
-// const dotenv = require('dotenv').config()
 import express from 'express'
 
 import path, {dirname} from 'path'
