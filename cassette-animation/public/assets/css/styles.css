@@ -12,10 +12,12 @@ body {
   background-image: url("http://localhost:5051/images/bg/dotnoise-light-grey.png");
   animation: static 2s steps(1) infinite; }
 
-.header__page .box h3 {
+.header__page .header__text h3 {
   color: #454545;
+  text-shadow: 3px 2px #558ABB;
   font-family: "Abril Fatface", cursive;
-  font-size: 2.3rem; }
+  font-size: 2.3rem;
+  text-transform: capitalize; }
 
 .grain {
   position: fixed;
@@ -28,203 +30,203 @@ body {
 
 @keyframes static {
   0% {
-    background-position: 6600% 5400%; }
+    background-position: 7900% 4000%; }
   1% {
-    background-position: 3100% 9900%; }
+    background-position: 3800% 1900%; }
   2% {
-    background-position: 5600% 5700%; }
+    background-position: 2800% 6200%; }
   3% {
-    background-position: 5600% 5000%; }
+    background-position: 3800% 8600%; }
   4% {
-    background-position: 2600% 7200%; }
+    background-position: 1900% 2600%; }
   5% {
-    background-position: 1400% 8300%; }
+    background-position: 4700% 6900%; }
   6% {
-    background-position: 2100% 9000%; }
+    background-position: 8000% 500%; }
   7% {
-    background-position: 2000% 3300%; }
+    background-position: 1300% 9100%; }
   8% {
-    background-position: 9700% 4600%; }
+    background-position: 7000% 2900%; }
   9% {
-    background-position: 8300% 5900%; }
+    background-position: 7400% 5900%; }
   10% {
-    background-position: 3200% 600%; }
+    background-position: 5300% 9600%; }
   11% {
-    background-position: 8200% 4200%; }
+    background-position: 5900% 5200%; }
   12% {
-    background-position: 2000% 1300%; }
+    background-position: 1300% 2300%; }
   13% {
-    background-position: 9200% 6000%; }
+    background-position: 9200% 5500%; }
   14% {
-    background-position: 4200% 7500%; }
+    background-position: 9500% 8500%; }
   15% {
-    background-position: 4000% 3700%; }
+    background-position: 7700% 4300%; }
   16% {
-    background-position: 6300% 2200%; }
+    background-position: 4600% 5900%; }
   17% {
-    background-position: 400% 2100%; }
+    background-position: 800% 4900%; }
   18% {
-    background-position: 100% 8900%; }
+    background-position: 6900% 4000%; }
   19% {
-    background-position: 6000% 8000%; }
+    background-position: 5800% 7300%; }
   20% {
-    background-position: 6500% 2000%; }
+    background-position: 4400% 5500%; }
   21% {
-    background-position: 5400% 7700%; }
+    background-position: 2200% 7300%; }
   22% {
-    background-position: 2900% 2800%; }
+    background-position: 5700% 9800%; }
   23% {
-    background-position: 8600% 7500%; }
+    background-position: 5700% 3000%; }
   24% {
-    background-position: 6600% 6100%; }
+    background-position: 5400% 6700%; }
   25% {
-    background-position: 7900% 2800%; }
+    background-position: 2500% 1900%; }
   26% {
-    background-position: 3300% 6800%; }
+    background-position: 1100% 6800%; }
   27% {
-    background-position: 4100% 9000%; }
+    background-position: 8800% 9600%; }
   28% {
-    background-position: 5100% 4700%; }
+    background-position: 700% 5600%; }
   29% {
-    background-position: 2300% 9800%; }
+    background-position: 2700% 9600%; }
   30% {
-    background-position: 7300% 9500%; }
+    background-position: 2600% 8700%; }
   31% {
-    background-position: 6100% 4000%; }
+    background-position: 2600% 7600%; }
   32% {
-    background-position: 2200% 6400%; }
+    background-position: 8500% 800%; }
   33% {
-    background-position: 5300% 9000%; }
+    background-position: 9500% 2900%; }
   34% {
-    background-position: 7100% 9400%; }
+    background-position: 8600% 2800%; }
   35% {
-    background-position: 8900% 7600%; }
+    background-position: 6400% 9800%; }
   36% {
-    background-position: 2800% 6800%; }
+    background-position: 8800% 4000%; }
   37% {
-    background-position: 8100% 9300%; }
+    background-position: 8800% 2500%; }
   38% {
-    background-position: 6900% 8000%; }
+    background-position: 4500% 200%; }
   39% {
-    background-position: 700% 9400%; }
+    background-position: 500% 5100%; }
   40% {
-    background-position: 7500% 8200%; }
+    background-position: 9500% 3100%; }
   41% {
-    background-position: 1400% 9000%; }
+    background-position: 6800% 2400%; }
   42% {
-    background-position: 4300% 1600%; }
+    background-position: 1000% 1100%; }
   43% {
-    background-position: 3100% 1600%; }
+    background-position: 4300% 9400%; }
   44% {
-    background-position: 8600% 8100%; }
+    background-position: 9800% 2100%; }
   45% {
-    background-position: 7700% 4600%; }
+    background-position: 3700% 5200%; }
   46% {
-    background-position: 1700% 3200%; }
+    background-position: 7500% 3600%; }
   47% {
-    background-position: 7200% 8300%; }
+    background-position: 600% 1900%; }
   48% {
-    background-position: 7800% 6000%; }
+    background-position: 5700% 1600%; }
   49% {
-    background-position: 7200% 3500%; }
+    background-position: 2000% 3800%; }
   50% {
-    background-position: 8000% 1700%; }
+    background-position: 2500% 8500%; }
   51% {
-    background-position: 2900% 4600%; }
+    background-position: 9800% 7000%; }
   52% {
-    background-position: 5000% 5700%; }
+    background-position: 5700% 1800%; }
   53% {
-    background-position: 4000% 2400%; }
+    background-position: 7500% 6400%; }
   54% {
-    background-position: 1200% 7000%; }
+    background-position: 4600% 2900%; }
   55% {
-    background-position: 3600% 300%; }
+    background-position: 8300% 200%; }
   56% {
-    background-position: 7900% 2500%; }
+    background-position: 7300% 800%; }
   57% {
-    background-position: 9500% 9300%; }
+    background-position: 2500% 2400%; }
   58% {
-    background-position: 7700% 4400%; }
+    background-position: 3600% 8300%; }
   59% {
-    background-position: 2500% 7600%; }
+    background-position: 1600% 7100%; }
   60% {
-    background-position: 7900% 7200%; }
+    background-position: 9500% 9600%; }
   61% {
-    background-position: 200% 8000%; }
+    background-position: 3100% 8600%; }
   62% {
-    background-position: 4800% 7800%; }
+    background-position: 2100% 3000%; }
   63% {
-    background-position: 1400% 1300%; }
+    background-position: 5800% 3600%; }
   64% {
-    background-position: 8700% 9700%; }
+    background-position: 3900% 700%; }
   65% {
-    background-position: 2500% 500%; }
+    background-position: 300% 800%; }
   66% {
-    background-position: 3700% 9300%; }
+    background-position: 5500% 800%; }
   67% {
-    background-position: 7300% 1600%; }
+    background-position: 3000% 400%; }
   68% {
-    background-position: 2800% 400%; }
+    background-position: 8800% 3900%; }
   69% {
-    background-position: 3300% 3800%; }
+    background-position: 2900% 8900%; }
   70% {
-    background-position: 9800% 7300%; }
+    background-position: 9000% 5200%; }
   71% {
-    background-position: 4000% 4000%; }
+    background-position: 9400% 4300%; }
   72% {
-    background-position: 200% 9100%; }
+    background-position: 3000% 2800%; }
   73% {
-    background-position: 400% 3000%; }
+    background-position: 1900% 1000%; }
   74% {
-    background-position: 700% 7500%; }
+    background-position: 6300% 1000%; }
   75% {
-    background-position: 400% 5900%; }
+    background-position: 8700% 8800%; }
   76% {
-    background-position: 1200% 3700%; }
+    background-position: 7500% 6300%; }
   77% {
-    background-position: 4300% 1700%; }
+    background-position: 9000% 9000%; }
   78% {
-    background-position: 4000% 6300%; }
+    background-position: 2600% 4100%; }
   79% {
-    background-position: 5400% 5300%; }
+    background-position: 8700% 8900%; }
   80% {
-    background-position: 8200% 6500%; }
+    background-position: 8600% 7500%; }
   81% {
-    background-position: 6700% 1800%; }
+    background-position: 8600% 4600%; }
   82% {
-    background-position: 9400% 7800%; }
+    background-position: 3800% 9700%; }
   83% {
-    background-position: 3200% 6400%; }
+    background-position: 100% 700%; }
   84% {
-    background-position: 3200% 5600%; }
+    background-position: 6500% 8600%; }
   85% {
-    background-position: 7600% 5300%; }
+    background-position: 7800% 5300%; }
   86% {
-    background-position: 9600% 600%; }
+    background-position: 500% 5900%; }
   87% {
-    background-position: 7000% 5700%; }
+    background-position: 4000% 9700%; }
   88% {
-    background-position: 2300% 3000%; }
+    background-position: 5500% 2900%; }
   89% {
-    background-position: 1500% 2300%; }
+    background-position: 5500% 2100%; }
   90% {
-    background-position: 2300% 3100%; }
+    background-position: 7900% 7600%; }
   91% {
-    background-position: 6600% 7800%; }
+    background-position: 5700% 8000%; }
   92% {
-    background-position: 6200% 7300%; }
+    background-position: 6300% 8200%; }
   93% {
-    background-position: 5100% 3300%; }
+    background-position: 3000% 5200%; }
   94% {
-    background-position: 1200% 5000%; }
+    background-position: 1300% 6400%; }
   95% {
-    background-position: 3700% 800%; }
+    background-position: 7100% 3400%; }
   96% {
-    background-position: 600% 2400%; }
+    background-position: 400% 4500%; }
   97% {
-    background-position: 3900% 100%; }
+    background-position: 6600% 9000%; }
   98% {
-    background-position: 700% 3500%; } }
+    background-position: 600% 1600%; } }
 
 a {
   position: fixed;
@@ -326,7 +328,7 @@ a {
       .cassette .label .cutout:after {
         position: absolute;
         display: block;
-        content: 'A 60';
+        content: 'A 90';
         color: rgba(255, 255, 255, 0.8);
         font-size: 1.5em;
         font-weight: bold;

@@ -14,11 +14,13 @@ body{
 }
 
 .header__page{
-	.box{
+	.header__text{
 		h3{
 			color: $header_heading;
+			text-shadow: 3px 2px #558ABB;
 			font-family: $header_font;
 			font-size: 2.3rem;
+			text-transform: capitalize;
 		}
 	}
 }
@@ -193,7 +195,7 @@ a{
 		&:after{
 			position:absolute;
 			display:block;
-			content:'A 60';
+			content:'A 90';
 			color:rgba(white,0.8);
 			font-size:1.5em;
 			font-weight:bold;

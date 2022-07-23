@@ -1,9 +1,10 @@
 module.exports = (app) => {
 	app.get('/', (req, res) => {
-		let data = {
-			"title": "Cassette Animation | codesyariah122"
+		let context = {
+			"title": "Cassette Animation | codesyariah122",
+			"header_text": "playing your sound",
+			"footer_text": "Made with &hearts; by codesyariah122" 
 		}
-
-		res.render('index', data)
+		res.render('index', context)
 	})
 }
