@@ -1,0 +1,17 @@
+{
+  "name": "SolarSystem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "scss": "node-sass --watch scss scss/main.scss -o assets/css/"
+  },
+  "author": "puji",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
