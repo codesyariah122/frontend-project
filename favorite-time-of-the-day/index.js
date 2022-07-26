@@ -18,7 +18,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 
 app.use(express.static('public/assets'))
 
-app.set('views', path.join(__dirname, 'public/pages'))
+app.set('views', path.join(__dirname, 'views'))
 
 app.set('view engine', 'pug')
 
