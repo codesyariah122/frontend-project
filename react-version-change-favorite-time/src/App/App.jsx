@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import Loader from './assets/200.gif'
 import './App.scss';
 import {Cat, Sky, Sun, Clouds, Stars, Moon, Mountain, Hill, Land, Trees} from './components'
 
@@ -13,15 +12,12 @@ const App = () => {
   const [active, setActive] = useState(false)
   const [first, setFirst] = useState(true)
   const [time, setTime] = useState(null)
-  const [loading, setLoading] = useState(null)
 
   const activeOption = (e) => {
     setActive(true)
     setFirst(false)
-    setLoading(true)
     let type = e.target.dataset.option
     setTimeout(() => {
-      setLoading(false)
       switch(type){
         case "day":
         setTime('time day')
@@ -61,61 +57,52 @@ const App = () => {
           {/*Ilustration*/}
           <div className="illustration">
             <div className={active ? time : "time dusk"}>
-              {
-                loading ? (
-                  <div className="loading">
-                    <img src={Loader} width="250" height="215" alt="loader"/>
-                  </div>
-                ) : 
-                (
-                  <>
-                  {/*Sky*/}
-                  <div className="sky">
-                    <Sky/>
-                  </div>
 
-                  {/*Sun*/}
-                  <div className="sun">
-                    <Sun/>
-                  </div>
+              {/*Sky*/}
+              <div className="sky">
+                <Sky/>
+              </div>
 
-                  {/*Clouds*/}
-                  <div className="clouds">
-                    <Clouds/>
-                  </div>
+              {/*Sun*/}
+              <div className="sun">
+              <Sun/>
+              </div>
 
-                  {/*Stars*/}
-                  <div className="stars">
-                    <Stars/>
-                  </div>
+              {/*Clouds*/}
+              <div className="clouds">
+              <Clouds/>
+              </div>
 
-                  {/*Moon*/}
-                  <div className="moon">
-                    <Moon/>
-                  </div>
+              {/*Stars*/}
+              <div className="stars">
+              <Stars/>
+              </div>
 
-                  {/*mountain*/}
-                  <div className="mountain">
-                    <Mountain/>
-                  </div>
+              {/*Moon*/}
+              <div className="moon">
+              <Moon/>
+              </div>
 
-                  {/*hill*/}
-                  <div className="hill">
-                    <Hill/>
-                  </div>
+              {/*mountain*/}
+              <div className="mountain">
+              <Mountain/>
+              </div>
 
-                  {/*hill*/}
-                  <div className="land">
-                    <Land/>
-                  </div>
+              {/*hill*/}
+              <div className="hill">
+              <Hill/>
+              </div>
 
-                  {/*trees*/}
-                  <div className="trees">
-                    <Trees/>
-                  </div>
-                  </>
-                )
-              }
+              {/*hill*/}
+              <div className="land">
+              <Land/>
+              </div>
+
+              {/*trees*/}
+              <div className="trees">
+              <Trees/>
+              </div>
+                 
             </div>
           </div>
         </div>
