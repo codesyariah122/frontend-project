@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .header__content {
+        text-align: center;
+      }
+      .base__content {
+        text-align: center;
+      }
+      .table__content .center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header__content">
+      <h1>Anagram With Javascript</h1>
+    </div>
+
+    <div class="base__content">
+      <div class="input__content">
+        <form>
+          <label for="string1">Input string satu</label>
+          <input type="text" id="string1" />
+          <label for="string2">Input string dua</label>
+          <input type="text" id="string2" />
+          <button type="button" id="submit" onClick="submitData()">
+            Submit
+          </button>
+        </form>
+      </div>
+
+      <hr />
+
+      <p>Hasilkan anagram disini</p>
+
+      <div class="table__content">
+        <table border="1" class="center">
+          <thead>
+            <tr>
+              <th>string 1</th>
+              <th>string 2</th>
+              <th>Hasil</th>
+            </tr>
+          </thead>
+
+          <tbody id="result-data"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./functions.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
