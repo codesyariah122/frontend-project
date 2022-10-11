@@ -7,6 +7,15 @@
 //     result: anagram(a, b)
 // }
 
+function submitAnagram() {
+  let string = document.getElementById("string").value;
+  const data = {
+    string: string,
+    results: allanagrams(string),
+  };
+  newCreateElement("tr", data, "result-anagram");
+}
+
 function submitData() {
   let string1 = document.getElementById("string1"),
     string2 = document.getElementById("string2");

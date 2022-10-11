@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Anagram Javascript</title>
     <style>
       .header__content {
         text-align: center;
@@ -15,6 +15,13 @@
       .table__content .center {
         margin-left: auto;
         margin-right: auto;
+      }
+      .other__anagram {
+        margin-top: 7rem;
+      }
+
+      .other__anagram > .table__content {
+        margin-top: 2rem;
       }
     </style>
   </head>
@@ -52,6 +59,31 @@
 
           <tbody id="result-data"></tbody>
         </table>
+      </div>
+
+      <div class="other__anagram">
+        <form>
+          <label for="string">Input string</label>
+          <input type="text" id="string" />
+          <button type="button" id="submit" onClick="submitAnagram()">
+            Submit
+          </button>
+        </form>
+
+        <hr />
+
+        <div class="table__content">
+          <table border="1" class="center">
+            <thead>
+              <tr>
+                <th>string</th>
+                <th>Hasil</th>
+              </tr>
+            </thead>
+
+            <tbody id="result-anagram"></tbody>
+          </table>
+        </div>
       </div>
     </div>
     <script src="./functions.js"></script>
