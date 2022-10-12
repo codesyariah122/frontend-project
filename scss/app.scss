@@ -1,10 +1,17 @@
 @import '_variable.scss';
 
 .home__content{
-    @each $column-bg, $i in $column-bg {
-        .#{$column-bg}{
-            background-color: $i;
-            height: 10vh;
+    .box__content{
+        display: flex;
+        flex-direction:row;
+        align-items: flex-start;
+        left:0;
+        @each $column-bg, $i in $column-bg {
+            .#{$column-bg}{
+                background-color: $i;
+                height: 50vh;
+                width: 30%;
+            }
         }
     }
 }
