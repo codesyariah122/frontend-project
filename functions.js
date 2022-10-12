@@ -24,8 +24,8 @@ function anagram(string1, string2) {
 
   let result =
     str1 === str2
-      ? "<span style='font-size:100px;'>&#128077;</span>"
-      : "<span style='font-size:100px;'>&#10060;</span>";
+      ? "<span style='font-size:30px;'>&#128077;</span>"
+      : "<span style='font-size:30px;'>&#10060;</span>";
 
   return result;
 }
