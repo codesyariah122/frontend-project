@@ -1,0 +1,10 @@
+@import '_variable.scss';
+
+.home__content{
+    @each $column-bg, $i in $column-bg {
+        .#{$column-bg}{
+            background-color: $i;
+            height: 10vh;
+        }
+    }
+}
