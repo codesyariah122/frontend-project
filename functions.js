@@ -1,6 +1,35 @@
 let items = [];
 let newEl = "";
 
+function submitAnagram() {
+  let string1 = document.getElementById("string1"),
+    string2 = document.getElementById("string2");
+  if (string1.value === "" || string2.value === "") {
+    alert("please input field string");
+    return 0;
+  }
+
+  const data = {
+    string1: string1.value,
+    string2: string2.value,
+    result: anagram(string1.value, string2.value),
+  };
+  createElement("tr", data, "result-data");
+  string1.value = "";
+  string2.value = "";
+}
+
+function submitAllAnagram() {
+  let string = document.getElementById("string");
+  // console.log(string.value);
+  const data = {
+    string: string.value,
+    results: allanagrams(string.value),
+  };
+  newCreateElement("tr", data, "result-anagram");
+  string.value = "";
+}
+
 function allanagrams(string) {
   if (string.length === 0) return [""];
   let result = {};
@@ -53,7 +82,7 @@ function newCreateElement(el, result, dom) {
         <tr>
         <td>${d.string}</td>
         <td width="200">
-          ${d.results.join(", ")}
+          ${d.results ? d.results.join(" ") : d.results}
         </td>
         </tr>
     `;
