@@ -1,0 +1,83 @@
+@import "_variable.scss";
+@import "_mixins.scss";
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: $bg-color;
+}
+
+.system {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  padding-top: 100%;
+
+  @media (min-width: 700px) {
+    padding-top: 700px;
+  }
+
+  &__sun {
+    position: absolute;
+    top: $top;
+    left: $left;
+    transform: translate(-50%, -50%);
+  }
+
+  &__orbit {
+    position: absolute;
+    top: $top;
+    left: $left;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    animation: spin infinite linear both;
+
+    @for $i from 1 through 10 {
+      &:nth-child(#{$i}) {
+        width: calc(#{$i}0%);
+        height: calc(#{$i}0%);
+      }
+    }
+
+    &--sun {
+      border: none;
+    }
+
+    // looping animation duration
+    @include animation($anim-lists);
+  }
+
+  &__planet {
+    @include system("planet");
+  }
+
+  &__icon {
+    @include system("icon");
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}

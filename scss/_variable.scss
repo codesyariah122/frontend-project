@@ -1,0 +1,14 @@
+$bg-color: #251c2d;
+$top: 50%;
+$left: 50%;
+$anim-lists: (
+  "&--mercury": 1s,
+  "&--venus": 2.6s,
+  "&--earth": 4.1s,
+  "&--mars": 7.8s,
+  "&--jupiter": 49.8s,
+  "&--saturn": 120.3s,
+  "&--uranus": 348.4s,
+  "&--neptune": 684.4s,
+  "&--pluto": 1028.6s,
+);
