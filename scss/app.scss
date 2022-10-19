@@ -4,7 +4,6 @@
   width: 30%;
   padding-top: 0;
   padding-bottom: 0;
-  line-height: 45px;
   background-color: #000cdd;
   border: 0px;
   cursor: pointer;
@@ -19,6 +18,9 @@
     font-family: "Rubik", sans-serif;
     font-weight: 700;
     color: #fff;
+    line-height: 10px;
+    padding-left: 7px;
+    padding-top: 5px;
   }
 
   &:before {
@@ -51,6 +53,6 @@
 
 @media (min-width: 992px) {
   .papper__fold {
-    width: 20%;
+    width: 15%;
   }
 }
