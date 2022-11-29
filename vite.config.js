@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import inject from "@rollup/plugin-inject";
 
 export default defineConfig({
   server: {
@@ -8,4 +9,10 @@ export default defineConfig({
     outdir: "./dist/",
   },
   root: "./src/",
+  plugins: [
+    inject({
+      $: "jquery",
+      jQuery: "jquery",
+    }),
+  ],
 });
