@@ -5,5 +5,5 @@ import { heroComponent } from "../../components/home/hero";
 const heroContent = document.getElementById("hero-content");
 
 $(document).ready(function () {
-  // $("#hero-content").html(heroComponent);
+  $("#hero-content").html(heroComponent);
 });
